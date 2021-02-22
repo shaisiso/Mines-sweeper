@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="314.0" xmlns="http://javafx.com/javafx/8.0.251" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mines.LostController">
+   <children>
+      <ImageView fx:id="im3" fitHeight="200.0" fitWidth="438.0" layoutX="-3.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../joker.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="im1" fitHeight="176.0" fitWidth="314.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../smile.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="im2" fitHeight="196.0" fitWidth="319.0" layoutX="-3.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../l2.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="im4" fitHeight="107.0" fitWidth="139.0" layoutX="18.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../lost_txt.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
